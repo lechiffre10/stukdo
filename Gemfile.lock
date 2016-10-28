@@ -8,6 +8,13 @@ GIT
       less-rails (>= 2.5.0)
       railties (>= 3.1)
 
+GIT
+  remote: https://github.com/bokmann/font-awesome-rails
+  revision: 1c082153a09a66f5bf97f5ef5dff7dbe56d81f21
+  specs:
+    font-awesome-rails (4.7.0.0)
+      railties (>= 3.2, < 5.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -166,6 +173,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
+  font-awesome-rails!
   jbuilder (~> 2.0)
   jquery-rails
   rails (= 4.2.5.2)
